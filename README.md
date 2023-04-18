@@ -2,3 +2,5 @@
 
 - [AnyLayout](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/AnyLayoutExampleView.swift)
 : Conditionally applies VStack or HStack container
+- [Expanding TextField](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/AutomaticExpandingTextFieldsView.swift)
+: set line limit to TextField and apply scrolling
