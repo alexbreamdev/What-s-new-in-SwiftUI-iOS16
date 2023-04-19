@@ -18,3 +18,9 @@
 : setting keyboard beheivior on scroll
 - [Text and TextField Line Limit](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/LimitRangesForText.swift)
 : Text truncation on exciding line limit
+- [Multiple Date Picker](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/MultipleDatePickerView.swift)
+: how to pick and store multiple dates from summoned calendar
+- [NavigationSplitView](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/NavigationSplitStackView.swift)
+: for iPads, MacOS and large iPhone screens
+- [NavigationStack](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/NavigationSplitStackView.swift)
+: new navigation API with destinations, navigation paths and new links
