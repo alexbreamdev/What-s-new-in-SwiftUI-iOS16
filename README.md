@@ -14,5 +14,7 @@
 : use .foregroundColor() 
 - [Hide scroll indicators and system overlays](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/HidingScrollIndicators.swift)
 : use recommended modifiers for List, ScrollView or TextEditor 
-- [Hide keyboard on scrollable views](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/HidingScrollIndicators.swift)
+- [Hide keyboard on scrollable views](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/KeyboardDismissView.swift)
 : setting keyboard beheivior on scroll
+- [Text and TextField Line Limit](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/LimitRangesForText.swift)
+: Text truncation on exciding line limit
