@@ -28,3 +28,9 @@
 : tap gesture with option to pass tapped point coordinates
 - [Request User Review](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/RequestReviewFromUserView.swift)
 : StoreKit functionality to request user review on application
+- [Searchable](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/SearchableModifierView.swift)
+: new searchable functionality with a few modifiers to search in scopes, by tags and so on.
+- [Share Link](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/ShareLinkView.swift)
+: Share on link tap
+- [Gradient and Shadow](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/SimpleGradientsAndShadowsView.swift)
+: adds .gradient, inner and drop shadow
