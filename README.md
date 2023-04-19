@@ -24,3 +24,7 @@
 : for iPads, MacOS and large iPhone screens
 - [NavigationStack](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/NavigationStackView.swift)
 : new navigation API with destinations, navigation paths and new links
+- [onTapGesture](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/OnTapGestureLocationView.swift)
+: tap gesture with option to pass tapped point coordinates
+- [Request User Review](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/RequestReviewFromUserView.swift)
+: StoreKit functionality to request user review on application
