@@ -10,3 +10,6 @@
 : new bottom sheet functionality to set height of bottom sheet
 - [Fixed Grid](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/FixedGridView.swift)
 : Grid with predefined number of rows and columns
+- [Text Color Animation](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/ForegroundcolorAnimationView.swift)
+: use .foregroundColor() 
+
