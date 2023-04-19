@@ -12,4 +12,7 @@
 : Grid with predefined number of rows and columns
 - [Text Color Animation](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/ForegroundcolorAnimationView.swift)
 : use .foregroundColor() 
-
+- [Hide scroll indicators and system overlays](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/HidingScrollIndicators.swift)
+: use recommended modifiers for List, ScrollView or TextEditor 
+- [Hide keyboard on scrollable views](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/HidingScrollIndicators.swift)
+: setting keyboard beheivior on scroll
