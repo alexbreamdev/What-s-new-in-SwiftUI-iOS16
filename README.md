@@ -33,4 +33,12 @@
 - [Share Link](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/ShareLinkView.swift)
 : Share on link tap
 - [Gradient and Shadow](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/SimpleGradientsAndShadowsView.swift)
-: adds .gradient, inner and drop shadow
+: adds .gradient to Color, inner and drop shadow
+- [Text Animation](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/TextAnimationView.swift)
+: animate text fontWeight change
+- [Toggle Booleans](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/ToggleArrayOfBooleansView.swift)
+: toggle multiple switches or make complex boolean logic on switch
+- [Variable Value](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/VariableValuesWIthSFSymbols.swift)
+: image icon filling with variableValue change
+
+
