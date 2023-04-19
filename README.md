@@ -22,5 +22,5 @@
 : how to pick and store multiple dates from summoned calendar
 - [NavigationSplitView](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/NavigationSplitStackView.swift)
 : for iPads, MacOS and large iPhone screens
-- [NavigationStack](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/NavigationSplitStackView.swift)
+- [NavigationStack](https://github.com/alexbreamdev/What-s-new-in-SwiftUI-iOS16/blob/main/NewSwiftUIiOS16/NavigationStackView.swift)
 : new navigation API with destinations, navigation paths and new links
