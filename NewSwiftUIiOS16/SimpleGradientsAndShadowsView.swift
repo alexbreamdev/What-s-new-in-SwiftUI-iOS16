@@ -27,7 +27,7 @@ struct ShadowsView: View {
         HStack {
             // drop shadow
             Circle()
-                .fill(.red.shadow(.drop(color: .black, radius: 20)))
+                .fill(.red.shadow(.drop(color: .black, radius: 20, x: 10, y: 10)))
                 .padding()
             
             // inner shadow
