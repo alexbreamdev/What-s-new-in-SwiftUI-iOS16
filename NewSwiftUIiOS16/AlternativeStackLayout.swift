@@ -56,9 +56,10 @@ struct AlternativeStackLayout: Layout {
         let oddX = bounds.minX + evenWidthMax!
         
         var y = bounds.minY
-        
+        // place views using sizes calculated above
         for (index, subview) in subviews.enumerated() {
             let subviewSize = subviewSizes[index]
+            
             let proposedSize = ProposedViewSize(width: subviewSize.width, height: subviewSize.height)
             if index.isMultiple(of: 2) {
                 subview.place(at: CGPoint(x: evenX, y: y), anchor: .topLeading, proposal: proposedSize)
