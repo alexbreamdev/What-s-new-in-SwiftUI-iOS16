@@ -24,9 +24,12 @@ struct MyColors {
 
 
 struct AnyLayoutExample2: View {
+//    @State private var changeLayout: Bool = false
+    @State private var layoutType: LayoutType = .zStack
     var body: some View {
+        let layout = AnyLayout(layoutType.layout)
         NavigationStack {
-            HStack {
+            layout {
                 ForEach(MyColors.allColors, id: \.color) { myColor in
                     myColor.color
                         .frame(width: myColor.width, height: myColor.height)
@@ -34,6 +37,24 @@ struct AnyLayoutExample2: View {
             }
             .padding()
             .navigationTitle("AnyLayout")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        withAnimation {
+                            if layoutType == .zStack {
+                                layoutType = .hStack
+                            } else if layoutType == .hStack {
+                                layoutType = .vStack
+                            } else if layoutType == .vStack {
+                                layoutType = .zStack
+                            }
+                        }
+                    } label: {
+                        Image(systemName: "list.bullet.rectangle")
+                            .imageScale(.large)
+                    }
+                }
+            }
         }
     }
 }
@@ -41,5 +62,26 @@ struct AnyLayoutExample2: View {
 struct AnyLayoutExample2_Previews: PreviewProvider {
     static var previews: some View {
         AnyLayoutExample2()
+    }
+}
+
+// MARK: - AnyLayout Controlling Enum
+//
+enum LayoutType: Int, CaseIterable {
+    case zStack, hStack, vStack
+    
+    var index: Int {
+        LayoutType.allCases.firstIndex(where: {$0 == self})!
+    }
+    
+    var layout: any Layout {
+        switch self {
+        case .zStack:
+            return ZStackLayout()
+        case .hStack:
+            return HStackLayout(alignment: .top, spacing: 0)
+        case .vStack:
+            return VStackLayout(alignment: .trailing)
+        }
     }
 }

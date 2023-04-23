@@ -14,6 +14,7 @@
 		2F69D7DA29F44530006C1891 /* AnyLayoutExample2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F69D7D929F44530006C1891 /* AnyLayoutExample2.swift */; };
 		2F7FC95C29B10FD500CFCAB3 /* MultipleDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC95B29B10FD400CFCAB3 /* MultipleDatePickerView.swift */; };
 		2F7FC95E29B112DF00CFCAB3 /* SearchableModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7FC95D29B112DF00CFCAB3 /* SearchableModifierView.swift */; };
+		2FC7FDD929F59FEF00F92FDF /* AlternativeStackLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7FDD829F59FEF00F92FDF /* AlternativeStackLayout.swift */; };
 		2FCBAD5D29B210B300EF3389 /* SimpleGradientsAndShadowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCBAD5C29B210B300EF3389 /* SimpleGradientsAndShadowsView.swift */; };
 		2FCBAD5F29B2348200EF3389 /* AnyLayoutExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCBAD5E29B2348200EF3389 /* AnyLayoutExampleView.swift */; };
 		2FCBAD6129B237AB00EF3389 /* RequestReviewFromUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCBAD6029B237AB00EF3389 /* RequestReviewFromUserView.swift */; };
@@ -42,6 +43,7 @@
 		2F69D7D929F44530006C1891 /* AnyLayoutExample2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutExample2.swift; sourceTree = "<group>"; };
 		2F7FC95B29B10FD400CFCAB3 /* MultipleDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleDatePickerView.swift; sourceTree = "<group>"; };
 		2F7FC95D29B112DF00CFCAB3 /* SearchableModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableModifierView.swift; sourceTree = "<group>"; };
+		2FC7FDD829F59FEF00F92FDF /* AlternativeStackLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeStackLayout.swift; sourceTree = "<group>"; };
 		2FCBAD5C29B210B300EF3389 /* SimpleGradientsAndShadowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGradientsAndShadowsView.swift; sourceTree = "<group>"; };
 		2FCBAD5E29B2348200EF3389 /* AnyLayoutExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutExampleView.swift; sourceTree = "<group>"; };
 		2FCBAD6029B237AB00EF3389 /* RequestReviewFromUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewFromUserView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 			children = (
 				2FCBAD5E29B2348200EF3389 /* AnyLayoutExampleView.swift */,
 				2F69D7D929F44530006C1891 /* AnyLayoutExample2.swift */,
+				2FC7FDD829F59FEF00F92FDF /* AlternativeStackLayout.swift */,
 				2FE9FEBF2926491F0040D4E9 /* Assets.xcassets */,
 				2FCBAD6C29B23F6E00EF3389 /* AutomaticExpandingTextFieldsView.swift */,
 				2FCBAD6E29B247F900EF3389 /* BoldAndItalicToggleView.swift */,
@@ -218,6 +221,7 @@
 				2F7FC95C29B10FD500CFCAB3 /* MultipleDatePickerView.swift in Sources */,
 				2FCBAD6B29B23EC400EF3389 /* TextAnimationView.swift in Sources */,
 				2F7FC95E29B112DF00CFCAB3 /* SearchableModifierView.swift in Sources */,
+				2FC7FDD929F59FEF00F92FDF /* AlternativeStackLayout.swift in Sources */,
 				2F69D7DA29F44530006C1891 /* AnyLayoutExample2.swift in Sources */,
 				2FE9FECC29264E230040D4E9 /* NavigationSplitStackView.swift in Sources */,
 				2FCBAD5D29B210B300EF3389 /* SimpleGradientsAndShadowsView.swift in Sources */,
