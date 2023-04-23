@@ -46,6 +46,8 @@ struct AnyLayoutExample2: View {
                             } else if layoutType == .hStack {
                                 layoutType = .vStack
                             } else if layoutType == .vStack {
+                                layoutType = .altStack
+                            } else if layoutType == .altStack {
                                 layoutType = .zStack
                             }
                         }
@@ -68,7 +70,7 @@ struct AnyLayoutExample2_Previews: PreviewProvider {
 // MARK: - AnyLayout Controlling Enum
 //
 enum LayoutType: Int, CaseIterable {
-    case zStack, hStack, vStack
+    case zStack, hStack, vStack, altStack
     
     var index: Int {
         LayoutType.allCases.firstIndex(where: {$0 == self})!
@@ -82,6 +84,8 @@ enum LayoutType: Int, CaseIterable {
             return HStackLayout(alignment: .top, spacing: 0)
         case .vStack:
             return VStackLayout(alignment: .trailing)
+        case .altStack:
+            return AlternativeStackLayout()
         }
     }
 }
