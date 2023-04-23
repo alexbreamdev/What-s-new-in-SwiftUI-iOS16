@@ -7,14 +7,20 @@
 
 import SwiftUI
 
-struct AlternativeStackLayout: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct AlternativeStackLayout: Layout {
+    func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) -> CGSize {
+        
     }
+    
+    func placeSubviews(in bounds: CGRect, proposal: ProposedViewSize, subviews: Subviews, cache: inout ()) {
+        
+    }
+    
+    
 }
 
-struct AlternativeStackLayout_Previews: PreviewProvider {
-    static var previews: some View {
-        AlternativeStackLayout()
-    }
-}
+//struct AlternativeStackLayout_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AlternativeStackLayout()
+//    }
+//}
